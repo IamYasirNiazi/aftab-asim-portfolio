@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+// $theme-colors: (
+//     "site-primary": #f96244,
+//     "site-primary-text": #f96244,
+//     "site-secondary": #222222,
+//     "site-third": #1f1f1f,
+//     "site-fourth": #2f2f2f,
+//     "site-fifth": #00ffbb,
+//     "site-text": #fff,
+//     "site-subtext": #dbdbdbce,
+//     "site-service-subtext1": #1f1f1fc7,
+//     "site-service-subtext2": #dbdbdbb0,
+//     "site-contact-subtext": #f3f3f3,
+//     "site-contact-subtext1": #dbdbdbe3,
+//     "site-contact-input": #dfdfdf18,
+//     "site-testimonial-stars":#ffa424,
+//     "body-bg": #fff,
+//     "body-color": #000,
+// );
+
+// @function theme-color($color) {
+//     $color: map-get($theme-colors, $color);
+//     @return $color;
+// }
+
+
+
+
+// Latest Color Scheme
+
+:root{
+
+  --site-nav-toggle-bg:#f96244;
+  --site-nav-toggle-color:#ffffffe0;
+  --site-nav-toggle-color-hover:#222222e0;
+
+  --site-header-color: #dbdbdbce;
+  --site-header-color-hover: #f96244;
+  --site-header-bg: #222222;
+  --site-header-icon1: #fff;
+  --site-header-icon2: #f96244;
+  --site-header-btn-color: #fff;
+  --site-header-btn-bg: #f96244;
+  --site-header-btn-color-hover: #1f1f1f;
+  --site-header-btn-bg-hover: #fff;
+  --site-header-btn2-bg:#fff;
+  --site-header-btn2-color:#1f1f1f;
+  --site-header-btn2-color-hover: #fff;
+  --site-header-btn2-bg-hover: #1f1f1f;
+
+  --site-hero-bg: #222222;
+  --site-hero-color: #fff;
+  --site-hero-tagline: #f96244;
+  --site-hero-info: #dbdbdbce;
+  --site-hero-icons: #dbdbdbce;
+  --site-hero-icons-hover: #f96244;
+  --site-hero-contact: #f96244;
+
+  --site-about-bg: #1f1f1f;
+  --site-about-color: #fff;
+  --site-about-subtext: #dbdbdbce;
+  --site-about-btn-bg: #f96244;
+  --site-about-btn-color: #fff;
+  --site-about-btn-bg-hover: #fff;
+  --site-about-btn-color-hover: #1f1f1f;
+
+  --site-experience-counter-bg: #f96244;
+  --site-experience-counter-color: #fff;
+
+  --site-skills-color: #fff;
+  --site-skills-bg: #222222;
+  --site-skills-subtext: #dbdbdbce;
+  --site-skills-tagline: #f96244;
+  --site-skills-icons: #f96244;
+
+  --site-qualification-bg: #1f1f1f;
+  --site-qualification-color: #fff;
+  --site-qualification-subtext: #dbdbdbce;
+  --site-qualification-tagline: #f96244;
+  --site-qualification-icons: #f96244;
+
+  --site-services-color: #fff;
+  --site-services-subtext: #fff;
+  --site-services-bg: #f96244;
+  --site-services-bg1: #fff;
+  --site-services-color1: #222222;
+  --site-services-subtext1: #1f1f1fc7;
+  --site-services-icon1: #f96244;
+  --site-services-bg2: #1f1f1f;
+  --site-services-subtext2: #dbdbdbb0;
+  --site-services-icon2: #f96244;
+
+  --site-portfolio-color: #fff;
+  --site-portfolio-bg: #222222;
+  --site-portfolio-tagline: #f96244;
+
+  --site-quote-color: #fff;
+  --site-quote-bg: #f96244;
+  --site-btn-bg: #fff;
+  --site-btn-color: #222222;
+  --site-btn-bg-hover: #222222;
+  --site-btn-color-hover: #fff;
+
+  --site-testimonial-color: #fff;
+  --site-testimonial-bg: #222222;
+  --site-testimonial-tagline: #f96244;
+  --site-testimonial-bg1: #ffffff;
+  --site-testimonial-title: #222222;
+  --site-testimonial-content: #1f1f1fc7;
+  --site-testimonial-stars: #ffa424;
+  --site-testimonial-social: #222222;
+
+  --site-contact-bg: #1f1f1f;
+  --site-contact-color: #fff;
+  --site-contact-color2: #f96244;
+  --site-contact-subtext: #f3f3f3;
+  --site-contact-info: #dbdbdbe3;
+  --site-contact-icons: #f96244;
+  --site-contact-input-bg: #dfdfdf18;
+  --site-contact-input-place: #dbdbdbce;
+  --site-contact-input-focus: #fff;
+  --site-contact-btn-bg: #f96244;
+  --site-contact-btn-color: #fff;
+  --site-contact-btn-bg-hover: #fff;
+  --site-contact-btn-color-hover: #222222;
+
+  --site-footer-icons: #fff;
+  --site-footer-btn-bg: #f96244;
+  --site-footer-color: #fff;
+  --site-footer-link-hover: #222222;
+
+  --site-whatsapp-bg:#f96244;
+  --site-whatsapp-bg-hover:#fff;
+  --site-whatsapp-color:#fff;
+  --site-whatsapp-color-hover:#222222;
+
+};
+
+
+.light-mode{
+
+  --site-nav-toggle-bg:#222222;
+  --site-nav-toggle-color:#ffffffd5;
+  --site-nav-toggle-color-hover:#f96244e5;
+
+  
+  --site-header-color: #2e2e2ece;
+  --site-header-color-hover: #f96244;
+  --site-header-bg: #fff;
+  --site-header-icon1: #fff;
+  --site-header-btn-color: #fff;
+  --site-header-btn-bg: #f96244;
+  --site-header-btn-color-hover: #fff;
+  --site-header-btn-bg-hover: #1f1f1f;
+  --site-header-btn2-bg:#fff;
+  --site-header-btn2-color:#1f1f1f;
+  --site-header-btn2-color-hover: #fff;
+  --site-header-btn2-bg-hover: #f96244;
+
+  --site-hero-bg: #fff;
+  --site-hero-color: #222222;
+  --site-hero-tagline: #2e2e2ece;
+  --site-hero-info: #2e2e2ece;
+  --site-hero-icons: #222222;
+  --site-hero-icons-hover: #f96244;
+  // --site-hero-icons: #dbdbdbce;
+  // --site-hero-icons-hover: #f96244;
+  --site-hero-contact: #222222;
+
+  --site-about-bg: #1f1f1f;
+  --site-about-color: #fff;
+  --site-about-subtext: #dbdbdbce;
+  --site-about-btn-bg: #f96244;
+  --site-about-btn-color: #fff;
+  --site-about-btn-bg-hover: #fff;
+  --site-about-btn-color-hover: #1f1f1f;
+
+  --site-experience-counter-bg: #f96244;
+  --site-experience-counter-color: #fff;
+
+  --site-skills-color: #222222;
+  --site-skills-bg: #fff;
+  --site-skills-subtext: #2e2e2ece;
+  --site-skills-tagline: #f96244;
+  --site-skills-icons: #f96244;
+
+  --site-qualification-bg: #fafafa;
+  --site-qualification-color: #1f1f1f;
+  --site-qualification-subtext: #2e2e2ece;
+  --site-qualification-tagline: #2e2e2ece;
+  --site-qualification-icons: #f96244;
+
+  --site-services-color: #fff;
+  --site-services-subtext: #2e2e2ece;
+  --site-services-bg: #fff;
+  --site-services-bg1: #f96244;
+  --site-services-color1: #fff;
+  --site-services-subtext1: #ffffffde;
+  --site-services-icon1: #fff;
+  --site-services-bg2: #1f1f1f;
+  --site-services-subtext2: #dbdbdbb0;
+  --site-services-icon2: #f96244;
+
+  --site-portfolio-color: #fff;
+  --site-portfolio-bg: #f96244;
+  --site-portfolio-tagline: #fff;
+
+  --site-quote-color: #fff;
+  --site-quote-bg: #222222;
+  --site-btn-bg: #f96244;
+  --site-btn-color: #fff;
+  --site-btn-bg-hover: #fff;
+  --site-btn-color-hover: #222222;
+
+  --site-testimonial-color: #222222;
+  --site-testimonial-bg: #fff;
+  --site-testimonial-tagline: #f96244;
+  --site-testimonial-bg1: #f96244f6;
+  --site-testimonial-title: #fff;
+  --site-testimonial-content: #ffffffe5;
+  --site-testimonial-stars: #ffa424;
+  --site-testimonial-social: #fff;
+
+  --site-contact-bg: #fafafa;
+  --site-contact-color: #222222;
+  --site-contact-color2: #f96244;
+  --site-contact-subtext: #2e2e2ece;
+  --site-contact-info: #2e2e2ec2;
+  --site-contact-icons: #f96244;
+  --site-contact-input-bg: #50505009;
+  --site-contact-input-place: #2e2e2ebd;
+  --site-contact-input-focus: #222222;
+  --site-contact-btn-bg: #f96244;
+  --site-contact-btn-color: #fff;
+  --site-contact-btn-bg-hover: #222222;
+  --site-contact-btn-color-hover: #fff;
+
+  --site-footer-icons: #fff;
+  --site-footer-btn-bg: #f96244;
+  --site-footer-color: #fff;
+  --site-footer-link-hover: #222222;
+
+  --site-whatsapp-bg:#f96244;
+  --site-whatsapp-bg-hover:#222222;
+  --site-whatsapp-color:#fff;
+  --site-whatsapp-color-hover:#fff;
+
+
+
+};
+
+
+
+
+@import 'bootstrap/dist/css/bootstrap.css';
+@import '../../Components/Header.scss';
+@import '../../Components/Hero.scss';
+@import '../../Components/About.scss';
+@import '../../Components/Experience.scss';
+@import '../../Components/Skills.scss';
+@import '../../Components/Qualification.scss';
+@import '../../Components/Services.scss';
+@import '../../Components/Portfolio.scss';
+@import '../../Components/Quote.scss';
+@import '../../Components/Testimonials.scss';
+@import '../../Components/ContactMe.scss';
+@import '../../Components/Footer.scss';
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+i{
+  cursor: pointer;
+}
+
+.active{
+    font-weight: 500;
+    color: darken($color: #f96244, $amount: 2) !important;
+    text-decoration: none;
+
+    @media (min-width: 200px) and (max-width: 991px){
+      color: lighten($color: #fff, $amount: 100) !important;
+      border-bottom: .05rem solid #fff;
+      font-weight: 600 !important;
+    }
+}
+
+a:link {
+  color: unset !important;
+}
+
+a:visited {
+  color: unset !important;
+}
+
+a:active{
+  color: unset !important;
+}
+
+a{
+  color: unset !important;
+  text-decoration: none !important;
+}
+
+section{
+  padding-top: 6rem !important;
+  padding-bottom: 5.5rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+
+  @media (max-width: 767px){
+    padding-top: 4.1rem !important;
+    padding-bottom: 3.5rem !important;    
+  }
+}
+
+.heading{
+  margin-bottom: 3.5rem;
+}
+
+.heading h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: var(--site-about-color);
+}
+
+.heading p{
+  text-align: center;
+  line-height: 1;
+  color: var(--site-hero-tagline);
+}
+
+.btn{
+  padding: .8rem 1.4rem;
+  border: none !important;
+  outline: none !important;
+  transition: .3s all ease-in-out;
+}
+
+.btn-primary{
+  margin-top: 1rem;
+}
+
+::placeholder{
+  color: var(--site-contact-input-place);
+  opacity: 1;
+
+  @media (min-width: 200px) and (max-width: 575px){
+    font-size: .8rem !important; 
+  }
+
+  @media (min-width: 576px) and (max-width: 767px){
+    font-size: .9rem !important; 
+  }
+}
+
+textarea:focus, input:focus {
+  color: var(--site-contact-input-focus);
+
+  @media (min-width: 200px) and (max-width: 575px){
+    font-size: .8rem !important; 
+  }
+
+  @media (min-width: 576px) and (max-width: 767px){
+    font-size: .9rem !important; 
+  }
+}
+
+input, select, textarea{
+  color: var(--site-contact-input-place);
+
+  @media (min-width: 200px) and (max-width: 575px){
+    font-size: .8rem !important; 
+  }
+
+  @media (min-width: 576px) and (max-width: 767px){
+    font-size: .9rem !important; 
+  }
+}
+
+
+
+
+
+/* for desktop */
+// .whatsapp_float {
+//   position: fixed;
+//   width: 60px;
+//   height: 60px;
+//   bottom: 35px;
+//   right: 40px;
+//   // background-color: #25d366;
+//   background-color: var(--site-whatsapp-bg);
+//   // color: #FFF;
+//   // color: var(--site-whatsapp-color);
+//   border-radius: 50px;
+//   text-align: center;
+//   font-size: 30px;
+//   box-shadow: 0px 0px 7px 0px var(--site-qualification-subtext);
+//   z-index: 100;
+
+//   // &:hover{
+//   //   background: var(--site-whatsapp-bg-hover);
+//   // }
+
+// }
+
+.whatsapp-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 35px;
+  right: 40px;
+  background-color: var(--site-whatsapp-bg);
+  border-radius: 50px;
+  font-size: 30px;
+  box-shadow: 0px 0px 7px 0px var(--site-qualification-subtext);
+  z-index: 100;
+  // margin-top: 16px;
+  color: var(--site-whatsapp-color);
+
+  &:hover{
+    color: var(--site-whatsapp-color-hover);
+    background: var(--site-whatsapp-bg-hover);
+  }
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+      // margin-top: 10px;
+      font-size: 25px;
+      width: 50px !important;
+      height: 50px !important;
+  }
+
+  // .whatsapp_float {
+  //     width: 40px;
+  //     height: 40px;
+  //     bottom: 20px;
+  //     right: 10px;
+  //     font-size: 22px;
+  // }
+}
+
+
+.nav{
+  position: relative !important;
+}
+
+.toggleMenu{
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  position: absolute;
+  gap: 1.5rem !important;
+  top: 0 !important;
+  right: 0 !important;
+  padding: 8rem 1.5rem;
+  transition: .3s all ease-in !important ;
+  color: var(--site-nav-toggle-color) !important;
+  background-color: var(--site-nav-toggle-bg) !important;
+  height: 100vh;
+  width: 60% !important;
+  z-index: 20;
+
+}
+
+.stickyNav{
+  background-color: var(--site-header-bg);
+  position: sticky !important;
+  top: 0;
+  z-index: 19;
+  margin-top: -5rem !important;
+  padding-top: .1rem !important;
+  padding-bottom: 1rem !important;
+  transition: .3s all ease-in-out !important ;
+  box-shadow: 0px 0.5px 10px 0.5px lighten($color: #505050, $amount: 1);
+
+  @media (min-width: 200px) and (max-width: 359px){
+    margin-top: 0 !important;
+    padding-top: .1rem !important;
+    padding-bottom: .9rem !important;
+  }
+
+  @media (min-width: 360px) and (max-width: 767px){
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: .9rem !important;
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px){
+    margin-top: 0 !important;
+    top: -1rem !important;
+    padding-top: -2rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  @media (min-width: 1200px) and (max-width: 1399px){
+    margin-top: 0 !important;
+    top: -1rem !important;
+    padding-top: -2rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  @media (min-width: 1400px) and (max-width: 1599px){
+    margin-top: 0 !important;
+    top: -.9rem !important;
+    padding-top: -2rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+}
+
+.skills-toggle{
+  display: flex !important;
+  flex-direction: column !important;
+}

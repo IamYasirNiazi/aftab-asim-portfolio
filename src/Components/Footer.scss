@@ -1,0 +1,135 @@
+.footer{
+    padding: 4rem 0;
+    // color: theme-color("site-text");
+    color: var(--site-footer-color);
+    // background: theme-color("site-primary");
+    background: var(--site-footer-btn-bg);
+
+    &__container{
+        &__row{
+            &__col{
+
+                &__main{
+
+                    @media (min-width:200px) and (max-width:575px){
+                        display: flex !important;
+                        flex-direction: column !important;
+                        justify-content: center !important;
+                        gap: 2rem !important;
+                    }
+
+                    &__logo{
+                        width: 14rem;
+                        cursor: pointer;
+
+                        @media (min-width:200px) and (max-width:359px){
+                            width: 12rem !important;  
+                        }
+
+                        @media (min-width:360px) and (max-width:575px){
+                            width: 13rem !important;  
+                        }
+
+                        @media (min-width:768px) and (max-width:991px){
+                            width: 12rem !important;  
+                        }
+                    }
+
+                    &__links{
+                        span{
+                            list-style-type: none;
+                            font-weight: 400;
+                            cursor: pointer;
+
+                            &:hover{
+                                list-style-type: none;
+                                transform: none;
+                                transition: .2s all ease-in-out;
+                                // color: theme-color("site-secondary");
+                                color: var(--site-footer-link-hover);
+                            }
+
+                            a{
+                                color: inherit !important;
+                                font-weight: 400 !important;
+
+                            }
+                            
+                            @media (min-width: 200px) and (max-width:359px){
+                                font-size: .85rem !important;
+                            }
+
+                            @media (min-width: 360px) and (max-width:575px){
+                                font-size: .95rem !important;
+                            }
+                        }
+
+                        @media (min-width: 576px) and (max-width:767px){
+                            display: none !important;
+                        }
+
+                        @media (min-width: 200px) and (max-width:575px){
+                            flex-direction: column !important;
+                        }
+
+                    }
+
+                    &__social{
+                        i{
+                            font-size: 1.05rem;
+                            // color: theme-color("site-text");
+                            color: var(--site-footer-icons);
+
+                            @media (min-width:768px) and (max-width:991px){
+                                &:nth-child(6),&:nth-child(7){  
+                                    display: none !important;
+                                }
+                            }
+
+                            @media (min-width: 200px) and (max-width:359px){
+                                font-size: .8rem;
+                            }
+
+                            @media (min-width: 360px) and (max-width:575px){
+                                font-size: 1rem;
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    &__copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 1.8rem;
+        margin-bottom: -2.5rem;
+
+        @media (min-width:200px) and (max-width:359px){
+            font-size: .65rem !important;
+        }
+
+        @media (min-width:360px) and (max-width:575px){
+            font-size: .82rem !important;
+        }
+
+        @media (min-width:576px) and (max-width:767px){
+            font-size: .92rem !important;
+        }
+
+        @media (min-width:768px) and (max-width:991px){
+            font-size: .95rem !important;
+        }
+        
+        span{
+
+        }
+    }
+
+}
+

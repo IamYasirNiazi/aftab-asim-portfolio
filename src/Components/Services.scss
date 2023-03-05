@@ -1,0 +1,142 @@
+.services{
+    background-color: var(--site-services-bg);
+    width: 100%;
+    padding-bottom: 7rem !important;
+
+    &__container{
+        .heading{
+            h2{
+                color: var(--site-contact-color);
+
+                @media (min-width: 200px) and (max-width: 359px){
+                    font-size: 1.5rem !important;  
+                }
+
+                @media (min-width: 360px) and (max-width: 575px){
+                    font-size: 1.75rem !important;  
+                }
+
+                @media (min-width: 576px) and (max-width: 767px){
+                    font-size: 2.1rem !important;  
+                }
+
+                @media (min-width: 768px) and (max-width: 880px){
+                    font-size: 2.3rem !important;  
+                }
+            }
+
+            p{
+                color: var(--site-services-subtext) !important;
+
+                @media (min-width: 200px) and (max-width: 359px){
+                    font-size: .83rem !important;  
+                }
+
+                @media (min-width: 360px) and (max-width: 575px){
+                    font-size: .93rem !important;  
+                }
+
+                @media (min-width: 576px) and (max-width: 767px){
+                    font-size: 1.05rem !important;  
+                }
+
+                @media (min-width: 768px) and (max-width: 880px){
+                    font-size: 1.15rem !important;  
+                }
+            }
+        }
+        &__row{
+            margin-top: 5rem;
+
+            @media (min-width: 200px) and (max-width: 991px){
+                padding-top: -2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 1.5rem !important;
+                
+            }
+
+            &__col{
+
+                .content1{
+                    background: var(--site-services-bg1);
+                    color: var(--site-services-color1);
+                    transform: scale(1.1);
+
+                    @media (min-width: 200px) and (max-width: 270px){
+                        width: 100% !important; 
+                    }
+                    
+                    @media (min-width: 200px) and (max-width: 991px){
+                        transform: scale(1) !important;    
+                    }
+
+                    @media (min-width: 992px) and (max-width: 1199px){
+                        margin-left: -.6rem;    
+                    }
+
+                    i{
+                        color: var(--site-services-icon1);
+                    }
+
+                    h3{
+                        font-weight: 600 !important;
+
+                        @media (min-width: 200px) and (max-width: 270px){
+                            font-weight: 600 !important; 
+                            font-size: 1.05rem !important;
+                        }
+                    }
+
+                    p{
+                        color: var(--site-services-subtext1);
+                    }
+                }
+
+                &__content{
+                    padding: 1.5rem;
+                    background: var(--site-services-bg2);
+                    color: var(--site-services-color);
+                    border-radius: .5rem;
+                    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.336);
+
+                    @media (min-width: 991px) and (max-width: 1199px){
+                        // font-weight: 600 !important; 
+                        font-size: .8rem !important;
+                    }
+
+                    &__icon{
+                        font-size: 2rem;
+                        color: var(--site-services-icon2);
+
+                    }
+
+                    &__title{
+                        text-align: center;
+
+                        @media (min-width: 200px) and (max-width: 270px){
+                            // font-weight: 600 !important; 
+                            font-size: 1.05rem !important;
+                        }
+
+                        @media (min-width: 1180px) and (max-width: 1199px){
+                            // font-weight: 600 !important; 
+                            font-size: 1.65rem !important;
+                        }
+
+                        @media (min-width: 1200px) and (max-width: 1399px){
+                            font-size: 1.6rem !important;  
+                        }
+                    }
+
+                    &__desc{
+                        text-align: center;
+                        color: var(--site-services-subtext2);
+                    }
+                }
+            }
+        }
+    }
+}

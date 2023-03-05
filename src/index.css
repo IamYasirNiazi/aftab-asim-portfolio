@@ -1,8 +1,20 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+    
+    --primary-color: #fc755a;
+    --secondary-color: #222222;
+    --third-color: #1f1f1f;
+    --fourth-color: #2f2f2f;
+    --fifth-color: #00ffbb;
+    --text-color: #fff;
+    --subtext-color: #dbdbdbce;
+
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +23,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+i{
+  cursor: pointer;
+}
+
+section{
+  padding-top: 3.8rem;
+  padding-bottom: 5rem;
+}
+
+.heading{
+  margin-bottom: 3.5rem;
+}
+
+.heading h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: var(--text-color);
+}
+
+.heading p{
+  text-align: center;
+  line-height: 1;
+  color: var(--primary-color);
+}
+
+.btn{
+  padding: .8rem 1.4rem !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.btn-primary{
+  margin-top: 1rem;
+  background-color: var(--primary-color) !important;
+  color: var(--text-color) !important;
+} */
