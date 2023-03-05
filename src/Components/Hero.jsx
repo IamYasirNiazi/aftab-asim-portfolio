@@ -88,7 +88,7 @@ const Hero = (props) => {
                         <span><NavLink href="https://www.linkedin.com/in/iamyasirniazi/" target='_blank'><i class="ri-linkedin-fill"></i></NavLink></span>
                         <span><NavLink href="https://www.behance.net/iamyasirniazi" target='_blank'><i class="ri-behance-fill"></i></NavLink></span>
                         <span><NavLink href="https://github.com/IamYasirNiazi" target='_blank'><i class="ri-github-fill"></i></NavLink></span>
-                        <span><NavLink href="https://wa.me/+923057388480" target='_blank'><i class="ri-whatsapp-line"></i></NavLink></span>
+                        {/* <span><NavLink href="https://wa.me/+923057388480" target='_blank'><i class="ri-whatsapp-line"></i></NavLink></span> */}
                     </Col>
                     <Col className='hero__container__row__col2 col col-lg-6 col-xl-6 d-flex justify-content-end'>
                         <img src={Hero_img} className='img-fluid hero__container__row__col2__hero-img' alt="hero-img" />

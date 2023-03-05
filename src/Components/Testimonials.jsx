@@ -1,7 +1,8 @@
 import React from 'react'
 import './Testimonials.scss'
 import {Container, Row, Col} from 'reactstrap'
-import Testimonial_img1 from '../assets/images/testimonial1.png'
+import Women_img from '../assets/images/testimonial-w.png'
+import Men_img from '../assets/images/testimonial-m.png'
 
 const Testimonials = () => {
   return (
@@ -19,7 +20,7 @@ const Testimonials = () => {
                             <div className='testimonials__container__row__col__wrapper d-flex flex-column justify-content-center'>
                                 <div className='testimonials__container__row__col__wrapper__header d-flex justify-content-between align-items-start'>
                                     <div className='testimonials__container__row__col__wrapper__header__info d-flex align-items-start gap-2'>
-                                        <img src={Testimonial_img1} alt="" className='testimonials__container__row__col__wrapper__header__info__img img-fluid' />
+                                        <img src={Women_img} alt="" className='testimonials__container__row__col__wrapper__header__info__img img-fluid' />
                                         <div className='testimonials__container__row__col__wrapper__header__info__title d-flex flex-column align-items-start'>
                                             <h5 className='testimonials__container__row__col__wrapper__header__info__title__name'>
                                                 Debbie Baca
@@ -49,7 +50,7 @@ const Testimonials = () => {
                             <div className='testimonials__container__row__col__wrapper d-flex flex-column justify-content-center'>
                                 <div className='testimonials__container__row__col__wrapper__header d-flex justify-content-between align-items-start'>
                                     <div className='testimonials__container__row__col__wrapper__header__info d-flex align-items-start gap-2'>
-                                        <img src={Testimonial_img1} alt="" className='testimonials__container__row__col__wrapper__header__info__img img-fluid' />
+                                        <img src={Men_img} alt="" className='testimonials__container__row__col__wrapper__header__info__img img-fluid' />
                                         <div className='testimonials__container__row__col__wrapper__header__info__title d-flex flex-column align-items-start'>
                                             <h5 className='testimonials__container__row__col__wrapper__header__info__title__name'>
                                                 Nathan Jones
