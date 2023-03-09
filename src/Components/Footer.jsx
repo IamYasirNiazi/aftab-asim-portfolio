@@ -66,7 +66,7 @@ const Footer = (props) => {
                   to='services' smooth={true} spy={true}
                   >Services</Link></span>
                     <span><Link
-                  to='services' smooth={true} spy={true}
+                  to='portfolio' smooth={true} spy={true}
                   >Portfolio</Link></span>
                     <span><Link
                   to='contact' smooth={true} spy={true}

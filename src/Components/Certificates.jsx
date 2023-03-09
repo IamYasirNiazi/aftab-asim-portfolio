@@ -36,7 +36,7 @@ const Certificates = () => {
                             <NavLink href='https://www.erozgaar.pitb.gov.pk/' target='_blank'>
                                 <div className='certificates__container__row__col__content item'>
                                     <img src={certificate_Image3} alt="certificates pic" className='certificates__container__row__col__content__img' />
-                                    <h5 className='certificates__container__row__col__content__title text-white'>Creative Design Course (PITB)</h5>
+                                    <h5 className='certificates__container__row__col__content__title text-white'>eRozgaar Creative Design Course (PITB)</h5>
                                 </div>
                             </NavLink>
 
