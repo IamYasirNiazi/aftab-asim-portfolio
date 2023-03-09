@@ -13,6 +13,8 @@ import { ContactMe } from '../Components/ContactMe'
 import Testimonials from '../Components/Testimonials'
 import Quote from '../Components/Quote'
 import { useState } from 'react'
+import Certificates from '../Components/Certificates'
+
 
 const Home = () => {
   
@@ -35,6 +37,7 @@ const Home = () => {
         <About />
         <Experience />
         <Skills />
+        <Certificates />
         <Qualification />
         <Services />
         <Portfolio />

@@ -63,6 +63,65 @@
     <!-- Jquery Owl-Carousel Sliders Start -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+
+
+    <script>
+      $(document).ready(function(){
+        $('#certificate').owlCarousel({
+          loop:true,
+          margin:20,
+          // nav:true,
+          center: true,
+          stagePadding: 50,
+          dots:true,
+          autoplay:true,
+          autoplayTimeout:2500,
+          // navText: ["<i class='ri-arrow-left-s-line'></i>", "<i class='ri-arrow-right-s-line'></i>"],
+          smartSpeed: 1000,
+          autoplayHoverPause:true,
+          responsiveClass:true,
+          responsive:{
+              0:{
+                  items:1,
+                  stagePadding: 0,
+
+              },
+              575:{
+                  items:1,
+                  stagePadding: 50,
+
+              },
+              768:{
+                  items:2,
+                  stagePadding: 20,
+
+              },
+              992:{
+                  items:3,
+                  stagePadding: 10,
+
+              },
+
+              1200:{
+                  items:3,
+                  stagePadding: 50,
+
+              },
+
+              1400:{
+                  items:3,
+                  stagePadding: 70,
+
+              }
+          }
+        })
+      });
+      
+    </script>
+    
+    
+    
     <script>
       $(document).ready(function(){
         $('#slider').owlCarousel({
