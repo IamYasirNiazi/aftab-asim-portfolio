@@ -61,6 +61,29 @@
 
                     }
 
+                    &__title{
+                        font-size: 1rem !important;
+                        text-align: center;
+                        padding: .8rem .5rem;
+                        font-weight: normal;
+
+                        @media (min-width: 200px) and (max-width:359px){
+                            font-size: .85rem !important;
+                            padding: .6rem .2rem;
+                        }
+
+                        @media (min-width: 360px) and (max-width:575px){
+                            font-size: 1.05rem !important;
+                            padding: .75rem .2rem;
+                        }
+
+                        @media (min-width: 576px) and (max-width:767px){
+                            font-size: 1.15rem !important;
+                            padding: .9rem .2rem;
+                        }
+
+                    }
+
                     // &__title{
                     //     margin-top: 1rem;
 

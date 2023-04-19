@@ -59,9 +59,11 @@
                     }
 
                     &__title{
-                        font-size: 1.15rem;
                         text-align: center;
                         padding: .8rem .5rem;
+                        font-size: 1rem !important;
+                        font-weight: normal;
+
 
                         @media (min-width: 200px) and (max-width:359px){
                             font-size: .85rem !important;

@@ -3,6 +3,7 @@ import {Container, Row, Col, NavLink} from 'reactstrap'
 import certificate_Image1 from '../assets/images/Coursera_JavaScript_Programming.jpg'
 import certificate_Image2 from '../assets/images/Coursera_Frontend_Development.jpg'
 import certificate_Image3 from '../assets/images/PITB_Creative_Desin.jpg'
+import certificate_Image4 from '../assets/images/Coursera_Version_Control.jpg'
 
 
 const Certificates = () => {
@@ -30,6 +31,13 @@ const Certificates = () => {
                                 <div className='certificates__container__row__col__content item'>
                                     <img src={certificate_Image2} alt="certificates pic" className='certificates__container__row__col__content__img' />
                                     <h5 className='certificates__container__row__col__content__title text-white'>Intro to Frontend Development (Coursera)</h5>
+                                </div>
+                            </NavLink>
+
+                            <NavLink href='https://coursera.org/share/f06e095038773c3dbbdf219f659ceca9' target='_blank'>
+                                <div className='certificates__container__row__col__content item'>
+                                    <img src={certificate_Image4} alt="certificates pic" className='certificates__container__row__col__content__img' />
+                                    <h5 className='certificates__container__row__col__content__title text-white'>Version Control in Development (Coursera)</h5>
                                 </div>
                             </NavLink>
 
