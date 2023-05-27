@@ -55,7 +55,7 @@ const headerRef = useRef()
 function stickyNavbar(){
   window.addEventListener('scroll', ()=>{
 
-    if(document.body.scrollTop>30 || document.documentElement.scrollTop>30){
+    if(document.body.scrollTop>40 || document.documentElement.scrollTop>40){
       headerRef.current.classList.add("stickyNav");
     }else{
       headerRef.current.classList.remove("stickyNav");

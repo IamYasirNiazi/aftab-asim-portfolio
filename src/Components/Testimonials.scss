@@ -51,7 +51,9 @@
                     // background: theme-color("site-text");
                     background: var(--site-testimonial-bg1);
                     border-radius: .5rem;
-                    padding: 1rem;
+                    padding: 1.2rem;
+                    padding-top: 1.5rem !important;
+                    padding-bottom: 1.5rem !important;
 
                     &__header{
 
@@ -76,11 +78,12 @@
                                 }
 
                                 &__desc{
+                                    margin-top: .5rem;
                                     // color: theme-color("site-secondary");
                                     color: var(--site-testimonial-title);
                                     font-weight: 500;
-                                    font-size: .95rem;
-
+                                    font-size: .9rem;
+                                    // font-style: italic;
                                 }
                             }
                         }
@@ -103,6 +106,8 @@
                             font-size: 1rem;
                             font-weight: 400;
                             height: 5rem !important;
+                            padding-left: 3rem !important;
+
 
                             @media (min-width: 200px) and (max-width:359px){
                              height: auto !important;
