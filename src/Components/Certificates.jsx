@@ -5,6 +5,7 @@ import certificate_Image2 from "../assets/images/Coursera_Frontend_Development.j
 import certificate_Image3 from "../assets/images/PITB_Creative_Desin.jpg";
 import certificate_Image4 from "../assets/images/Coursera_Version_Control.jpg";
 import certificate_Image5 from "../assets/images/Coursera_Html_and_Css_in_depth.jpg";
+import certificate_Image6 from "../assets/images/Coursera_React_Basics.jpg";
 
 const Certificates = () => {
   return (
@@ -81,6 +82,22 @@ const Certificates = () => {
                     />
                     <h5 className="certificates__container__row__col__content__title text-white">
                       Html and Css in Depth (Coursera)
+                    </h5>
+                  </div>
+                </NavLink>
+
+                <NavLink
+                  href="https://coursera.org/share/d94ad9bf5d76ddde1ccbcee3e199c78f"
+                  target="_blank"
+                >
+                  <div className="certificates__container__row__col__content item">
+                    <img
+                      src={certificate_Image6}
+                      alt="certificates pic"
+                      className="certificates__container__row__col__content__img"
+                    />
+                    <h5 className="certificates__container__row__col__content__title text-white">
+                      React Basics (Coursera)
                     </h5>
                   </div>
                 </NavLink>
