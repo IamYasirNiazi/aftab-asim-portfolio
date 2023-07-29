@@ -97,7 +97,7 @@ const Hero = (props) => {
                         whileInView={{x: 0, opacity: 1}}
                         exit={{x: +100, opacity: 0}}
                         transition={{...transition, duration: '3'}}
-                        className='hero__container__row__col2__heading'>Yasir<br/>Jehangir</motion.h1>
+                        className='hero__container__row__col2__heading'>Aftab<br/>Asim</motion.h1>
                         <motion.img
                 initial={{x: +15, opacity: 0}}
                 whileInView={{x: 0, opacity: 1}}
@@ -116,15 +116,15 @@ const Hero = (props) => {
                         exit={{x: window.innerWidth>880? -100 : "", opacity: 1}}
                         transition={{...transition, duration: '3'}}
                         className='hero__container__row__col3__main d-flex flex-column gap-3'>
-                            <p className='hero__container__row__col3__main__tagline'>Software Engineer</p>
+                            <p className='hero__container__row__col3__main__tagline'>Adminstrator</p>
                             {/* <h2 className='hero__container__row__col3__main__title'>Based in Pakistan, I'm developer and graphic designer.</h2>
                              */}
                             <h2 className='hero__container__row__col3__main__title'>
                             Top-Notch<br className='line'/> <span className='expert'>Expertise</span><br className='line'/> as a Freelance<br/><Typed
                             strings={[
-                                "Web Developer.",
-                                "Graphic Designer.",
-                                "UI/UX Designer.",
+                                "Adminstrator.",
+                                "Safety Officer.",
+                                "Event Organizer.",
                             ]}
                             typeSpeed={80}
                             backSpeed={20}
@@ -133,10 +133,10 @@ const Hero = (props) => {
                             <p className='hero__container__row__col3__main__desc'>Web developer & graphic designer, with <span><br /></span>extensive knowledge and years of experience working in technologies like Next Js, React Js, Redux, Adobe Photoshop and Adobe Illustrator, delivering the quality work.</p>
                             <div className='hero__container__row__col3__main__contact d-flex flex-column gap-1'>
                                 <span className='hero__container__row__col3__main__contact__phone'>
-                                    <i class="ri-phone-fill"></i> &nbsp; +92 (305) 738 8480
+                                    <i class="ri-phone-fill"></i> &nbsp; +92 (300) 396 8416
                                 </span>
                                 <span className='hero__container__row__col3__main__contact__email'>
-                                    <i class="ri-mail-open-fill"></i> &nbsp; iamyasirniazi@gmail.com
+                                    <i class="ri-mail-open-fill"></i> &nbsp; aftabasim88@gmail.com
                                 </span>
                             </div>
 
