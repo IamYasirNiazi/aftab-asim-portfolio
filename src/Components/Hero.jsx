@@ -120,7 +120,7 @@ const Hero = (props) => {
                             {/* <h2 className='hero__container__row__col3__main__title'>Based in Pakistan, I'm developer and graphic designer.</h2>
                              */}
                             <h2 className='hero__container__row__col3__main__title'>
-                            Top-Notch<br className='line'/> <span className='expert'>Expertise</span><br className='line'/> as a Freelance<br/><Typed
+                            Top-Notch<br className='line'/> <span className='expert'>Expertise</span><br className='line'/>in Field as<br/><Typed
                             strings={[
                                 "Adminstrator.",
                                 "Safety Officer.",
