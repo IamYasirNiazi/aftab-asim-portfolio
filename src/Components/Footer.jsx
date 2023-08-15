@@ -65,28 +65,28 @@ const Footer = (props) => {
                     <span><Link
                   to='services' smooth={true} spy={true}
                   >Services</Link></span>
-                    <span><Link
+                    {/* <span><Link
                   to='portfolio' smooth={true} spy={true}
-                  >Portfolio</Link></span>
+                  >Portfolio</Link></span> */}
                     <span><Link
                   to='contact' smooth={true} spy={true}
                   >Contact Me</Link></span>
                 </div>
                 <div className='footer__container__row__col__main__social d-flex flex-wrap justify-content-center align-items-center gap-3'>
-                <NavLink href="https://web.facebook.com/IamYasirNiazi" target='_blank'><i className="ri-facebook-fill"></i></NavLink>
-                  <NavLink href="https://twitter.com/IamYasirNiazi" target='_blank'><i className="ri-twitter-fill"></i></NavLink>
-                  <NavLink href="https://www.instagram.com/iamyasirniazi/" target='_blank'><i class="ri-instagram-line"></i></NavLink>
-                  <NavLink href="https://www.linkedin.com/in/iamyasirniazi/" target='_blank'><i class="ri-linkedin-fill"></i></NavLink>
-                  <NavLink href="https://www.behance.net/iamyasirniazi" target='_blank'><i class="ri-behance-fill"></i></NavLink>
-                  <NavLink href="https://github.com/IamYasirNiazi" target='_blank'><i class="ri-github-fill"></i></NavLink>
-                  <NavLink href="https://wa.me/+923057388480" target='_blank'><i class="ri-whatsapp-line"></i></NavLink>
+                <NavLink href="https://www.facebook.com/aftab.asim.54" target='_blank'><i className="ri-facebook-fill"></i></NavLink>
+                  {/* <NavLink href="https://twitter.com/IamYasirNiazi" target='_blank'><i className="ri-twitter-fill"></i></NavLink> */}
+                  <NavLink href="https://www.instagram.com/aftabasim88/" target='_blank'><i class="ri-instagram-line"></i></NavLink>
+                  {/* <NavLink href="https://www.linkedin.com/in/iamyasirniazi/" target='_blank'><i class="ri-linkedin-fill"></i></NavLink> */}
+                  {/* <NavLink href="https://www.behance.net/iamyasirniazi" target='_blank'><i class="ri-behance-fill"></i></NavLink> */}
+                  {/* <NavLink href="https://github.com/IamYasirNiazi" target='_blank'><i class="ri-github-fill"></i></NavLink> */}
+                  <NavLink href="https://wa.me/+923003968416" target='_blank'><i class="ri-whatsapp-line"></i></NavLink>
                 </div>
               </div>
             </Col>
           </Row>
         </Container>
         <div className='footer__copyright'>
-          <span>Copyright © 2023 | <b>Yasir Jehangir Khan</b></span>
+          <span>Copyright © 2023 | <b>Designed by: Yasir Jehangir Khan (0305-7388480)</b></span>
         </div>
       </footer>
     </>

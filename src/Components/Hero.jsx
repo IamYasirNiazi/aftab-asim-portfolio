@@ -84,10 +84,10 @@ const Hero = (props) => {
             <Container className='hero__container'>
                 <Row className='hero__container__row d-flex flex-wrap justify-content-center align-items-end gap-3'>
                     <Col className='hero__container__row__col1 col col-lg-1 d-flex justify-content-start align-items-center pb-4 gap-3'>
-                        <span><NavLink href="https://www.instagram.com/iamyasirniazi/" target='_blank'><i class="ri-instagram-line"></i></NavLink></span>
-                        <span><NavLink href="https://www.linkedin.com/in/iamyasirniazi/" target='_blank'><i class="ri-linkedin-fill"></i></NavLink></span>
-                        <span><NavLink href="https://www.behance.net/iamyasirniazi" target='_blank'><i class="ri-behance-fill"></i></NavLink></span>
-                        <span><NavLink href="https://github.com/IamYasirNiazi" target='_blank'><i class="ri-github-fill"></i></NavLink></span>
+                        <span><NavLink href="https://www.instagram.com/aftabasim88/" target='_blank'><i class="ri-instagram-line"></i></NavLink></span>
+                        <span><NavLink href="https://www.facebook.com/aftab.asim.54" target='_blank'><i class="ri-facebook-fill"></i></NavLink></span>
+                        {/* <span><NavLink href="https://www.linkedin.com/in/iamyasirniazi/" target='_blank'><i class="ri-linkedin-fill"></i></NavLink></span> */}
+                        {/* <span><NavLink href="https://github.com/IamYasirNiazi" target='_blank'><i class="ri-github-fill"></i></NavLink></span> */}
                         {/* <span><NavLink href="https://wa.me/+923057388480" target='_blank'><i class="ri-whatsapp-line"></i></NavLink></span> */}
                     </Col>
                     <Col className='hero__container__row__col2 col col-lg-6 col-xl-6 d-flex justify-content-end'>
@@ -130,7 +130,7 @@ const Hero = (props) => {
                             backSpeed={20}
                             loop/>
                             </h2>
-                            <p className='hero__container__row__col3__main__desc'>Web developer & graphic designer, with <span><br /></span>extensive knowledge and years of experience working in technologies like Next Js, React Js, Redux, Adobe Photoshop and Adobe Illustrator, delivering the quality work.</p>
+                            <p className='hero__container__row__col3__main__desc'>I am proud to serve as a hospital administrator, overseeing the seamless operation of our medical facility to ensure the highest quality care for our patients.</p>
                             <div className='hero__container__row__col3__main__contact d-flex flex-column gap-1'>
                                 <span className='hero__container__row__col3__main__contact__phone'>
                                     <i class="ri-phone-fill"></i> &nbsp; +92 (300) 396 8416

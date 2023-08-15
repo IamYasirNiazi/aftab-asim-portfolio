@@ -7,7 +7,7 @@ function App() {
       <Home />
       {/* WhatsApp icon */}
       <a
-        href="https://wa.me/+923057388480"
+        href="https://wa.me/+923003968416"
         // class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"

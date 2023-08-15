@@ -117,12 +117,12 @@ useEffect(() => {
                   <li><Link
                   to='services' smooth={true} spy={true} onClick={navMenu}
                   >Services</Link></li>
-                  <li><Link
+                  {/* <li><Link
                   to='portfolio' smooth={true} spy={true} onClick={navMenu}
-                  >Portfolio</Link></li>
-                  <li><Link
+                  >Portfolio</Link></li> */}
+                  {/* <li><Link
                   to='testimonial' smooth={true} spy={true} onClick={navMenu}
-                  >Testimonials</Link></li>
+                  >Testimonials</Link></li> */}
                 </ul>
                 <div className='nav__container__row__col__main__contact d-flex flex-wrap justify-content-center align-items-center gap-5'>
                   {mode==='dark' &&<i className="ri-sun-fill nav__container__row__col__main__contact__icon1" onClick={lightMode}></i>}

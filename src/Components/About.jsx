@@ -13,9 +13,10 @@ export const About = () => {
                 <Row className='about__container__row d-flex flex-wrap justify-content-center gap-5'>
                     <Col className='about__container__row__col1 col col-lg-5 col-xlg-4 d-flex flex-column align-items-start gap-2'>
                         {/* <p className='about__container__row__col1__tagline'>About Me &nbsp; ----------</p> */}
-                        <h3  className='about__container__row__col1__title p-1'>Web and Graphics Expert!</h3>
-                        <p  className='about__container__row__col1__desc p-1'>A Professional Frontend Developer and Graphic Designer. I'm a Software Engr graduate with 3 years of experience in Web and Graphics. I am passionate and find freelancing as the opportunity to express my creativity by creating responsive & playful websites and graphics. My Expertise are HTML5, CSS3, Bootstrap, JavaScript, React Js, Next Js, Redux, Sass, Adobe Photoshop and Illustrator.</p>
-                        <NavLink href='/Yasir_Resume.pdf' className='about__container__row__col1__btn btn-download btn btn-primary d-flex justify-content-center align-items-center' target='_blank' download>My Resume &nbsp;<i class="ri-download-2-fill"></i></NavLink>
+                        <h3  className='about__container__row__col1__title p-1'>Administrator and Event Organizer</h3>
+                        <p  className='about__container__row__col1__desc p-1'>I am proud to serve as a hospital administrator, overseeing the seamless operation of our medical facility to ensure the highest quality care for our patients.<br/><br/>
+In addition to my role in healthcare, I embrace my passion for event organization, where I bring moments to life and create unforgettable experiences. Balancing the precision of healthcare administration with the creativity of event coordination allows me to bring a unique perspective to both fields.</p>
+                        <NavLink href='/Aftab_Asim_CV.pdf' className='about__container__row__col1__btn btn-download btn btn-primary d-flex justify-content-center align-items-center' target='_blank' download>My Resume &nbsp;<i class="ri-download-2-fill"></i></NavLink>
                     </Col>
 
                     <Col className='about__container__row__col2 col col-lg-4 col-xlg-4 d-flex flex-column align-items-start gap-5'>
@@ -26,8 +27,8 @@ export const About = () => {
                             <p className='about__container__row__col2__query__tagline'>Let's talk with me</p>
                         </div>
                         <div className='about__container__row__col2__email d-flex justify-content-between align-items-center gap-5'>
-                            <NavLink href='mailto:iamyasirniazi@gmail.com' className='about__container__row__col2__email__id'>iamyasirniazi@gmail.com</NavLink>
-                            <span><NavLink href='mailto:iamyasirniazi@gmail.com' className='about__container__row__col2__email__icon'><i class="ri-arrow-right-line"></i></NavLink></span>
+                            <NavLink href='mailto:aftabasim88@gmail.com' className='about__container__row__col2__email__id'>aftabasim88@gmail.com</NavLink>
+                            <span><NavLink href='mailto:aftabasim88@gmail.com' className='about__container__row__col2__email__icon'><i class="ri-arrow-right-line"></i></NavLink></span>
                         </div>
                     </Col>
                 </Row>

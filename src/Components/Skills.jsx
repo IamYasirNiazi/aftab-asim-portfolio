@@ -46,8 +46,8 @@ const Skills = () => {
                             <span className='d-flex align-items-center gap-4'>
                                 <span className='skills__container__row__col__header__icon'><i class="ri-braces-fill"></i></span>
                                 <div className='skills__container__row__col__header__title'>
-                                    <h4>Frontend developer</h4>
-                                    <p>Less than 1 year</p>
+                                    <h4>Administrator</h4>
+                                    <p>More than 10 years</p>
                                 </div>
                             </span>
                             {!fArrow && <i class="ri-arrow-down-s-line skills__container__row__col__header__arrow"></i>}
@@ -61,7 +61,7 @@ const Skills = () => {
 
                             <div className='skills__container__row__col__content__one'>
                                 <div className='skills__container__row__col__content__one__desc'>
-                                    <span className='skills__container__row__col__content__one__desc__name'>HTML</span>
+                                    <span className='skills__container__row__col__content__one__desc__name'>Administrator</span>
                                     <span className='skills__container__row__col__content__one__desc__perc'>90%</span>
                                 </div>
                                 <div className='skills__container__row__col__content__one__line'>
@@ -71,7 +71,7 @@ const Skills = () => {
                             </div>
                             <div className='skills__container__row__col__content__two'>
                                 <div className='skills__container__row__col__content__two__desc'>
-                                    <span className='skills__container__row__col__content__two__desc__name'>CSS</span>
+                                    <span className='skills__container__row__col__content__two__desc__name'>Safety Officer</span>
                                     <span className='skills__container__row__col__content__two__desc__perc'>80%</span>
                                 </div>
                                 <div className='skills__container__row__col__content__two__line'>
@@ -81,7 +81,7 @@ const Skills = () => {
                             </div>
                             <div className='skills__container__row__col__content__three'>
                                 <div className='skills__container__row__col__content__three__desc'>
-                                    <span className='skills__container__row__col__content__three__desc__name'>Javascript</span>
+                                    <span className='skills__container__row__col__content__three__desc__name'>Hospital Maintenance</span>
                                     <span className='skills__container__row__col__content__three__desc__perc'>60%</span>
                                 </div>
                                 <div className='skills__container__row__col__content__three__line'>
@@ -91,7 +91,7 @@ const Skills = () => {
                             </div>
                             <div className='skills__container__row__col__content__four'>
                                 <div className='skills__container__row__col__content__four__desc'>
-                                    <span className='skills__container__row__col__content__four__desc__name'>React Js</span>
+                                    <span className='skills__container__row__col__content__four__desc__name'>Stock Inventory</span>
                                     <span className='skills__container__row__col__content__four__desc__perc'>80%</span>
                                 </div>
                                 <div className='skills__container__row__col__content__four__line'>
@@ -101,7 +101,7 @@ const Skills = () => {
                             </div>
                             <div className='skills__container__row__col__content__five'>
                                 <div className='skills__container__row__col__content__five__desc'>
-                                    <span className='skills__container__row__col__content__five__desc__name'>Next Js</span>
+                                    <span className='skills__container__row__col__content__five__desc__name'>Pay-List</span>
                                     <span className='skills__container__row__col__content__five__desc__perc'>70%</span>
                                 </div>
                                 <div className='skills__container__row__col__content__five__line'>
@@ -121,8 +121,8 @@ const Skills = () => {
                             <span className='d-flex align-items-center gap-4'>
                                 <span className='skills__container__row__col__header__icon'><i class="ri-palette-fill"></i></span>
                                 <div className='skills__container__row__col__header__title'>
-                                    <h4>Graphic designer</h4>
-                                    <p>More than 3 years</p>
+                                    <h4>Event Organizer</h4>
+                                    <p>More than 8 years</p>
                                 </div>
                             </span>
                             {!gArrow && <i class="ri-arrow-down-s-line skills__container__row__col__header__arrow"></i>}
@@ -133,7 +133,7 @@ const Skills = () => {
 
                             <div className='skills__container__row__col__content__one'>
                                 <div className='skills__container__row__col__content__one__desc'>
-                                    <span className='skills__container__row__col__content__one__desc__name'>Adobe Photoshop</span>
+                                    <span className='skills__container__row__col__content__one__desc__name'>Seminars</span>
                                     <span className='skills__container__row__col__content__one__desc__perc'>80%</span>
                                 </div>
                                 <div className='skills__container__row__col__content__one__line'>
@@ -143,7 +143,7 @@ const Skills = () => {
                             </div>
                             <div className='skills__container__row__col__content__two'>
                                 <div className='skills__container__row__col__content__two__desc'>
-                                    <span className='skills__container__row__col__content__two__desc__name'>Adobe Illustrator</span>
+                                    <span className='skills__container__row__col__content__two__desc__name'>Wedding Events</span>
                                     <span className='skills__container__row__col__content__two__desc__perc'>70%</span>
                                 </div>
                                 <div className='skills__container__row__col__content__two__line'>
@@ -153,7 +153,7 @@ const Skills = () => {
                             </div>
                             <div className='skills__container__row__col__content__three'>
                                 <div className='skills__container__row__col__content__three__desc'>
-                                    <span className='skills__container__row__col__content__three__desc__name'>Adobe Indesign</span>
+                                    <span className='skills__container__row__col__content__three__desc__name'>Musical Nights</span>
                                     <span className='skills__container__row__col__content__three__desc__perc'>70%</span>
                                 </div>
                                 <div className='skills__container__row__col__content__three__line'>
@@ -163,7 +163,7 @@ const Skills = () => {
                             </div>
                             <div className='skills__container__row__col__content__four'>
                                 <div className='skills__container__row__col__content__four__desc'>
-                                    <span className='skills__container__row__col__content__four__desc__name'>Figma</span>
+                                    <span className='skills__container__row__col__content__four__desc__name'>TV Shows</span>
                                     <span className='skills__container__row__col__content__four__desc__perc'>60%</span>
                                 </div>
                                 <div className='skills__container__row__col__content__four__line'>
@@ -173,7 +173,7 @@ const Skills = () => {
                             </div>
                             <div className='skills__container__row__col__content__five'>
                                 <div className='skills__container__row__col__content__five__desc'>
-                                    <span className='skills__container__row__col__content__five__desc__name'>Filmora</span>
+                                    <span className='skills__container__row__col__content__five__desc__name'>TV Commercials</span>
                                     <span className='skills__container__row__col__content__five__desc__perc'>70%</span>
                                 </div>
                                 <div className='skills__container__row__col__content__five__line'>

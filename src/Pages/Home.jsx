@@ -37,12 +37,12 @@ const Home = () => {
         <About />
         <Experience />
         <Skills />
-        <Certificates />
+        {/* <Certificates /> */}
         <Qualification />
         <Services />
-        <Portfolio />
-        <Quote />
-        <Testimonials />
+        {/* <Portfolio /> */}
+        {/* <Quote /> */}
+        {/* <Testimonials /> */}
         <ContactMe />
         <Footer />
     </>

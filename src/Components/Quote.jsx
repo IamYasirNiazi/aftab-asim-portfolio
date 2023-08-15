@@ -13,7 +13,7 @@ const Quote = () => {
                     <Col className='col-lg-10 quote__container__row__col d-flex justify-content-center align-items-center'>
                         <div className='quote__container__row__col__wrapper d-flex flex-wrap justify-content-between align-items-center'>
                             <h2 className='quote__container__row__col__wrapper__title'>
-                                Collaborate with a Passionate Web Designer and Create a Stunning Online Presence!
+                            Empowering wellness and forging connections through healthcare administration and event enchantment.
                             </h2>
                             <Link
                                 to='contact' smooth={true} spy={true}

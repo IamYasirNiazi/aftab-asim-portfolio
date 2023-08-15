@@ -38,15 +38,15 @@ export const ContactMe = () => {
                         <div className='contactMe__container__row__col__info d-flex flex-wrap align-items-start gap-3'>
                             <div className='contactMe__container__row__col__info__phone d-flex align-items-center gap-2'>
                                 <i className="ri-phone-fill"></i>
-                                <span className='contact-content-sub-text'>+92 (305) 738 8480</span>
+                                <span className='contact-content-sub-text'>+92 (300) 396 8416</span>
                             </div>
                             <div className='contactMe__container__row__col__info__email d-flex align-items-center gap-2'>
                                 <i className="ri-mail-open-fill"></i>
-                                <span className='contact-content-sub-text'>iamyasirniazi@gmail.com</span>
+                                <span className='contact-content-sub-text'>aftabasim88@gmail.com</span>
                             </div>
                             <div className='contactMe__container__row__col__info__location d-flex align-items-center gap-2'>
                                 <i className="ri-map-pin-2-fill"></i>
-                                <span className='contact-content-sub-text'>Lahore, Pakistan</span>
+                                <span className='contact-content-sub-text'>Sargodha, Pakistan</span>
                             </div>
                         </div>
                     </Col>

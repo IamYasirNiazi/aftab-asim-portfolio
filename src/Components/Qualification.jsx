@@ -44,9 +44,9 @@ const Qualification = () => {
 
                             <div className='qualification__container__row__col__content__one d-flex justify-content-end gap-4'>
                                 <div className='qualification__container__row__col__content__one__desc'>
-                                    <h3>Frontend Developer(React)</h3>
-                                    <p>Rawalpindi - Nextpak Agile Sol.</p>
-                                    <span><i class="ri-calendar-line"></i> &nbsp; Dec, 2022 - Feb, 2023</span>
+                                    <h3>Administrator</h3>
+                                    <p>Niazi Medical VIP Complex</p>
+                                    <span><i class="ri-calendar-line"></i> &nbsp; Dec, 2016 - Present</span>
                                 </div>
                                 <div className='qualification__container__row__col__content__one__shape d-flex flex-column align-items-center'>
                                     <span className='qualification__container__row__col__content__one__shape__round'></span>
@@ -59,16 +59,16 @@ const Qualification = () => {
                                     <span className='qualification__container__row__col__content__two__shape__line'></span>
                                 </div>
                                 <div className='qualification__container__row__col__content__two__desc'>
-                                    <h3>MERN Stack (Intern)</h3>
-                                    <p>Faisalabad - Softigh Company</p>
-                                    <span><i class="ri-calendar-line"></i> &nbsp; Oct, 2022 - Nov, 2022</span>
+                                    <h3>Administrator</h3>
+                                    <p>Ajwa Car Wash L.L.C Dubai</p>
+                                    <span><i class="ri-calendar-line"></i> &nbsp; Mar, 2022 - Jul, 2023</span>
                                 </div>
                             </div>
                             <div className='qualification__container__row__col__content__three d-flex justify-content-end gap-4'>
                                 <div className='qualification__container__row__col__content__three__desc'>
-                                    <h3>Senior Graphic Designer</h3>
-                                    <p>Canada - Netmatico Pvt Ltd.</p>
-                                    <span><i class="ri-calendar-line"></i> &nbsp; Jan, 2021 - Jun, 2022</span>
+                                    <h3>Administrator</h3>
+                                    <p>Mubarak Medical Complex</p>
+                                    <span><i class="ri-calendar-line"></i> &nbsp; Jan, 2017 - Jun, 2019</span>
                                 </div>
                                 <div className='qualification__container__row__col__content__three__shape d-flex flex-column align-items-center'>
                                     <span className='qualification__container__row__col__content__three__shape__round'></span>
@@ -81,9 +81,9 @@ const Qualification = () => {
                                     {/* <div className='qualification__container__row__col__content__four__shape__line'></div> */}
                                 </div>
                                 <div className='qualification__container__row__col__content__four__desc'>
-                                    <h3>UI/UX and Graphic Designer</h3>
-                                    <p>Islamabad - AlBasirr Technologies</p>
-                                    <span><i class="ri-calendar-line"></i> &nbsp; Jan, 2019 - Nov, 2019</span>
+                                    <h3>Event Organizer</h3>
+                                    <p>Araiz Event Organizer</p>
+                                    <span><i class="ri-calendar-line"></i> &nbsp; Jan, 2016 - Present</span>
                                 </div>
                             </div>
 
@@ -93,9 +93,9 @@ const Qualification = () => {
                             
                             <div className='qualification__container__row__col__content__one d-flex justify-content-end gap-4'>
                                 <div className='qualification__container__row__col__content__one__desc'>
-                                    <h3>Software Engineering</h3>
+                                    <h3>Bachelor of Arts</h3>
                                     <p>Sargodha - University</p>
-                                    <span><i class="ri-calendar-line"></i> &nbsp; 2014 - 2018</span>
+                                    <span><i class="ri-calendar-line"></i> &nbsp; 2012 - 2014</span>
                                 </div>
                                 <div className='qualification__container__row__col__content__one__shape d-flex flex-column align-items-center'>
                                     <span className='qualification__container__row__col__content__one__shape__round'></span>
@@ -108,16 +108,16 @@ const Qualification = () => {
                                     <div className='qualification__container__row__col__content__two__shape__line'></div>
                                 </div>
                                 <div className='qualification__container__row__col__content__two__desc'>
-                                    <h3>FSC Pre-Engineering</h3>
-                                    <p>Mianwali - College</p>
-                                    <span><i class="ri-calendar-line"></i> &nbsp; 2012 - 2014</span>
+                                    <h3>FA</h3>
+                                    <p>Islamabad - AIOU</p>
+                                    <span><i class="ri-calendar-line"></i> &nbsp; 2009 - 2012</span>
                                 </div>
                             </div>
                             <div className='qualification__container__row__col__content__three d-flex justify-content-end gap-4'>
                                 <div className='qualification__container__row__col__content__three__desc'>
                                     <h3>Matric with Science</h3>
                                     <p>Mianwali - School</p>
-                                    <span><i class="ri-calendar-line"></i> &nbsp; 2009 - 2011</span>
+                                    <span><i class="ri-calendar-line"></i> &nbsp; 2003 - 2005</span>
                                 </div>
                                 <div className='qualification__container__row__col__content__three__shape d-flex flex-column align-items-center'>
                                     <span className='qualification__container__row__col__content__three__shape__round'></span>
